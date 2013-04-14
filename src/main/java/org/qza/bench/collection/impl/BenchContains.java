@@ -10,7 +10,7 @@ public class BenchContains extends BenchBase {
 	}
 
 	@Override
-	protected void executeMethod(Collection<String> collection, String parameter) {
+	protected void executeMethod(Collection<String> collection, String parameter, Collection<String> collectionParameter) {
 		collection.contains(parameter);
 	}
 

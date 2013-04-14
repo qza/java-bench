@@ -11,7 +11,7 @@ public class BenchAdd extends BenchBase {
 	}
 
 	@Override
-	protected void executeMethod(Collection<String> collection, String parameter) {
+	protected void executeMethod(Collection<String> collection, String parameter, Collection<String> collectionParameter) {
 		collection.add(parameter);
 	}
 

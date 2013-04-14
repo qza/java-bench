@@ -11,7 +11,7 @@ public class BenchSize extends BenchBase {
 	}
 
 	@Override
-	protected void executeMethod(Collection<String> collection, String parameter) {
+	protected void executeMethod(Collection<String> collection, String parameter, Collection<String> collectionParameter) {
 		collection.size();
 	}
 
